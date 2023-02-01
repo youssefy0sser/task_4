@@ -1,0 +1,341 @@
+body {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:0px ;
+  }
+
+
+  .first_class {
+    text-align: center;
+    margin: 60px auto;
+    width: 550px;
+  }
+
+
+
+
+
+  .head_333333{
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(210, 10%, 33%);
+  }
+
+
+
+
+  .head {
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(210, 10%, 33%);
+  }
+
+
+
+
+
+  button {
+    padding: 10px 25px;
+    margin: 10px 5px 60px;
+    border: 10px 5px 0px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+  }
+  button:hover{
+    opacity: 70%;
+    cursor: pointer;
+  }
+  .p_44444{
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  .pargraph {
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+  }
+  
+
+  #b1 {
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+    text-align: center;
+  
+  }
+  #b2 {
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+    text-align: center;
+   
+  }
+  .second_class{
+    display: flex;
+    margin-left: 0px;
+  }
+  .text{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    width: 300px;
+    margin: 80px 60px ;
+  }
+  .tex_1 ,.tex_2,.tex_3{
+    margin-bottom: 25px;
+    color: hsl(210, 10%, 33%);
+  }
+  .pargraph3{
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+  }
+  .third_class{
+    text-align: center;
+    margin: 60px auto ;
+    width: 550px  ;
+  }
+  
+  .fourth_class{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+  }
+  .fifth_class{
+    text-align: center;
+  }
+  .sixth_class{
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    margin: 80px auto ;
+  }
+  .six_coulmn{
+    width:300px;
+    text-align: center;
+    margin:auto;
+  }
+  .sivth_class{
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+  }
+  .logo{
+    width:400px;
+    text-align: center;
+    margin:auto;
+  }
+  .eighth_class{
+    width: 550px ;
+    text-align: center;
+    margin: 100px auto;
+  }
+  .end{
+     height: 100px;
+      display:flex;
+      background-color:hsl(204, 14%, 93%);
+      margin-left: 0px;
+  
+  }
+  .last_div{
+    padding-top:15px;
+  }
+  .last_p{
+    width:100px;
+    padding-right:70px;
+    color:hsl(210, 10%, 33%);
+  }
+  .last_p:hover{
+    color:hsl(171, 66%, 44%);
+    cursor: pointer;
+  }
+  .last_img{
+    width:50px;
+    padding-right: 100px;
+    margin-left: 200px;
+    margin-top:25px;
+    color:hsl(171, 66%, 44%);
+  }
+  .div_image{
+    display: flex;
+    margin: auto 200px auto 300px;
+  }
+  .image{
+    margin: auto 10px auto 10px;
+    font-size: x-large;
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width:400px){
+    body{
+      background-image: url(../images/bg-header-mobile.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin:0px ;
+    }
+    .first_class {
+      text-align: center;
+      margin: 150px 0px 0px auto;
+      width: 300px;
+    }
+    #p1{
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .pargraph {
+      font-family: "Bai Jamjuree", sans-serif;
+      color: hsl(201, 11%, 66%);
+    }
+    .head {
+      font-family: "Bai Jamjuree", sans-serif;
+      color: hsl(210, 10%, 33%);
+      
+    }
+    button {
+        padding: 17px 50px;
+        margin: 10px auto 10px auto;
+        border: 10px 5px 0px;
+        font-size: 18px;
+        font-weight: 300;
+        border-radius: 35px;
+        color: white;
+        text-align: center;
+        border-radius: 25px;
+        width: 300px;
+    }
+    button:hover{
+      opacity: 70%;
+      cursor: pointer;
+    }
+    #b1 {
+      background-color: hsl(171, 66%, 44%);
+      border-color: hsl(171, 66%, 44%);
+      text-align: center;
+      box-shadow: 0px 5px 10px 0px hsl(171deg 66% 44%);
+      margin-top: 45px;
+      border-radius: 50px;
+      padding: 15px 50px;
+    }
+    #b2 {
+      background-color: hsl(233, 100%, 69%);
+      border-color: hsl(233, 100%, 69%);
+      text-align: center;
+      box-shadow: 0px 5px 10px 0px hsl(233deg 100% 69%);
+      margin: 15px 0px 140px 0px;
+      border-radius: 50px;
+      padding: 15px 50px;
+    }
+    #p2{
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 50px;
+    }
+    .second_class{
+      width:375px;
+      display:flex;
+      flex-direction:column;
+      flex-wrap: nowrap;
+      margin:auto;
+      margin: 50px;
+    }
+    .comp_photo{
+      width: 335px;
+      height: 250px;
+      text-align: center;
+    }
+    .text{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: auto;
+      text-align: center;
+    }
+    .pargraph3{
+      font-family: "Bai Jamjuree", sans-serif;
+      color: hsl(201, 11%, 66%);
+      font-size: 16px;
+    }
+    .third_class{
+      text-align: center;
+      width: 160px  ;
+    }
+    .p_44444{
+      width: 270px;
+      color: hsl(201, 11%, 66%);
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 50px;
+      font-family: "Bai Jamjuree", sans-serif;
+    }
+    .head_333333{
+      width: 245px;
+      text-align: center;
+      font-family: "Bai Jamjuree", sans-serif;
+      color: hsl(210, 10%, 33%);
+    }
+    .fourth_class{
+      width: 350px;
+      margin: 45px;
+  }
+    .fourth img{
+      width:350px;
+      height: 250px;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    .fifth_class{
+      width:250px;
+      text-align: center;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+    .sixth_class{
+      width: auto;
+      display:flex;
+      flex-direction:column;
+      flex-wrap: nowrap;
+      margin:auto;
+      margin-top:60px;
+      margin-bottom: 100px;
+      text-align: center;
+    }
+    .sivth_class{
+      width: auto;
+      display:flex;
+      flex-direction:column;
+      flex-wrap: nowrap;
+      margin:auto;
+      text-align: center;
+    }
+    .logo{
+      padding-bottom: 80px;
+    }
+    .eighth_class{
+      width: 300px ;
+      text-align: center;
+      margin: 100px auto;
+    }
+  
+  }
+  .div_image{
+    display: flex;
+    margin: auto 200px auto 300px;
+  }
+  .image{
+    margin: auto 10px auto 10px;
+    font-size: x-large;
+  }
